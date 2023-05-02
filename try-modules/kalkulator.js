@@ -19,7 +19,7 @@ class Kalkulator {
         return x % y;
     };
 };
-module.exports = new Kalkulator;
+module.exports = new Kalkulator();
 
 //atau bisa menggunakan cara dibawah tanpa dimasukan kedalam class
 
@@ -35,3 +35,4 @@ module.exports = new Kalkulator;
 //     tambah,
 //     kurang,
 // };
+// module.exports = { tambah, kurang};
